@@ -8,7 +8,7 @@
 session_start();
 
 $servername = 'localhost';
-$database_name = 'the pot luck';
+$database_name = 'recipe';
 $username = "root";
 $password = "";
 
