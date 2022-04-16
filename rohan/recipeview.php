@@ -177,7 +177,7 @@ if(isset($_GET["rec_name"]) && !empty(trim($_GET["rec_name"]))){
                         <label style="color:white;">Recipe Preparation Instructions</label>
                         <p><b><?php echo $row["rec_prep"]; ?></b></p>
                     </div>
-                    <p><a href="international.php" class="btn btn-primary">Back</a></p>
+                    <p><a href="allrecipes.php" class="btn btn-primary">Back</a></p>
                 </div>
             </div>        
         </div>

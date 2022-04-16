@@ -1,0 +1,46 @@
+* {border: 0 !important; }
+body::-webkit-scrollbar{
+  display: none;
+}
+body{
+    -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.navbar-brand{
+  font-size: 40px;
+  font-family: 'Short Stack', cursive;
+  font-weight: bolder;
+  color: white;
+}
+
+.navbar{
+  font-family: 'Short Stack', cursive;
+  color: white !important;
+  }
+
+video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.overlay {
+  position: center;
+  color: #fff;
+    text-align: center;
+    margin-top: 35vh;
+}
+.display-3{
+  font-size: 100px;
+  font-family: 'Short Stack', cursive;
+}
+.lead{
+  font-size: 50px;
+  font-family: 'Short Stack', cursive;
+}
+
